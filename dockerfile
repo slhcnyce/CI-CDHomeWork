@@ -1,4 +1,4 @@
-FROM public.ecr.aws/docker/library/golang:latest
+FROM golang:rc-bullseye
 
 WORKDIR /app
 
